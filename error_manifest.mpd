@@ -1,0 +1,110 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" mediaPresentationDuration="PT1M38.208S" minBufferTime="PT4.000S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static">
+    <BaseURL>https://strm.yandex.ru/vh-playertest/vod_dash</BaseURL>
+    <Period id="0">
+        <AdaptationSet contentType="video" id="0" maxHeight="480" maxWidth="854" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="1,2,3,4,5" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="854x480@1157342:480p" />
+            <Representation bandwidth="1157342" codecs="avc1.64001e" height="480" id="v1-x1" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="854">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid1/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid1/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" id="1" maxHeight="576" maxWidth="1024" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0,2,3,4,5" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="1024x576@1894081:576p" />
+            <Representation bandwidth="1894081" codecs="avc1.64001f" height="576" id="v1-x2" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="1024">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid2/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid2/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" id="2" maxHeight="1080" maxWidth="1920" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0,1,3,4,5" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="1920x1080@4625275:1080p" />
+            <Representation bandwidth="4625275" codecs="avc1.640028" height="1080" id="v1-x3" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="1920">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid3/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid3/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" id="3" maxHeight="720" maxWidth="1280" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0,1,2,4,5" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="1280x720@3007924:720p" />
+            <Representation bandwidth="3007924" codecs="avc1.64001f" height="720" id="v1-x4" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="1280">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid4/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid4/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" id="4" maxHeight="240" maxWidth="426" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0,1,2,3,5" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="426x240@583968:240p" />
+            <Representation bandwidth="583968" codecs="avc1.4d001e" height="240" id="v1-x5" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="426">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid5/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid5/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" id="5" maxHeight="360" maxWidth="640" segmentAlignment="true">
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0,1,2,3,4" />
+            <SupplementalProperty schemeIdUri="urn:mpeg:yandex:labels:quality" value="640x360@679391:360p" />
+            <Representation bandwidth="679391" codecs="avc1.4d001e" height="360" id="v1-x6" mimeType="video/mp4" sar="1:1" startWithSAP="1" width="640">
+                <InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1" />
+                <InbandEventStream schemeIdUri="urn:yandex:meta:id3:2017" value="1" />
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid6/init-v1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/vid6/fragment-$Number$-v1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="audio" id="6" label="Русский_128" lang="Русский" segmentAlignment="true">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1" />
+            <Representation audioSamplingRate="44100" bandwidth="130314" codecs="mp4a.40.2" id="a1-x1" mimeType="audio/mp4" startWithSAP="1">
+                <SegmentTemplate initialization="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/aid1/init-a1.mp4?vsid=971oa74hcl96r2p&amp;no_cache=1" media="/vod/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/kaltura/desc_bea319cd979c1d13ad1a9e8495af812f/41bbffe8303da0009d72c2ba7738af4a/aid1/fragment-$Number$-a1.m4s?vsid=971oa74hcl96r2p&amp;no_cache=1" startNumber="1" timescale="1000">
+                    <SegmentTimeline>
+                        <S d="4000" r="23" />
+                        <S d="2208" />
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <error
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:version" value="2" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:uri" value="https://strm.yandex.ru/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/preview/sprite_$Number$.jpg" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:tiles" value="50x1" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:duration" value="100" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:resolution" value="160x4500" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:lowres:uri" value="https://strm.yandex.ru/vh-youtube-converted/vod-content/15270352576897422758/5b123476-5b2a54e9-b7155f1e-98e32232/preview/lowres-sprite_$Number$.jpg" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:lowres:tiles" value="50x1" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:lowres:duration" value="100" />
+        <SupplementalProperty schemeIdUri="urn:mpeg:yandex:thumbnail:lowres:resolution" value="160x4500" />
+    </Period>
+</MPD>
